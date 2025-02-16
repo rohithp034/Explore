@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #222;
+    color: white;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/restaurant-bg.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+}
+
+.hero-text p {
+    font-size: 20px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #e6b800;
+}
+
+/* Menu Section */
+.menu {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.menu h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.menu-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.menu-card h3 {
+    margin-top: 10px;
+}
+
+/* Gallery */
+.gallery {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f1f1f1;
+}
+
+.gallery h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery-grid img {
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
